@@ -1,0 +1,10 @@
+version: '2'
+services:
+    api:
+        build:
+            context: ./api-server
+            dockerfile: Dockerfile
+        volumes:
+            - './api-server/src:/app/src'
+        ports:
+            - '8081:3000'
