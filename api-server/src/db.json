@@ -1,0 +1,32 @@
+{
+  "confirm": {
+    "confirmation_sent": 1
+  },
+  "check": {
+    "is_email_confirmed": 1
+  },
+  "reviewers": [
+    {
+      "count": "integer",
+      "objects": [
+        {
+          "user1": "user1"
+        }
+      ]
+    }
+  ],
+  "sendOnReviewWithAccess": [
+    {
+      "id": 0,
+      "reviewerUserId": 0,
+      "Access": {
+        "roundId": {
+          "is_access_to_preparation": 0,
+          "is_access_to_agreements": 0,
+          "is_access_to_analysis": 0,
+          "is_access_to_statistics": 0
+        }
+      }
+    }
+  ]
+}
