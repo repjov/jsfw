@@ -37,7 +37,7 @@
         }
       ]
     },
-      {
+    {
       "id": 1,
       "projectId": 0,
       "count": "integer",
