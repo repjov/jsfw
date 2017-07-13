@@ -5,11 +5,24 @@
   "check": {
     "is_email_confirmed": 1
   },
+  "projects": [
+    {
+      "reviewer_id": 0,
+      "access": [
+        {
+          "round_id": 10,
+          "is_access_to_preparation": 1,
+          "is_access_to_agreements": 1,
+          "is_acess_to_analysis": 1,
+          "is_access_to_statistics": 1
+        }
+      ],
+      "id": 0
+    }
+  ],
   "reviewers": [
     {
-      "id": 0,
-      "projectId": 1,
-      "count": "integer",
+      "count": 1,
       "objects": [
         {
           "id": 0,
@@ -35,66 +48,19 @@
           "position": "string",
           "sync_date": "2017-07-10T08:49:28.007Z"
         }
-      ]
-    },
-      {
-      "id": 1,
-      "projectId": 0,
-      "count": "integer",
-      "objects": [
-        {
-          "id": 0,
-          "first_name": "string",
-          "last_name": "string",
-          "email": "uuuu@mail.ru",
-          "birthdate": "string",
-          "phone": "string",
-          "avatar": {},
-          "is_email_confirmed": false,
-          "is_club_member": false,
-          "language": "ru",
-          "gender": 0,
-          "industry": "string",
-          "industry_code": 0,
-          "is_admin": false,
-          "is_blocked": false,
-          "device_token": "string",
-          "date_join_club": "2017-07-10T08:49:28.007Z",
-          "date_leave_club": "2017-07-10T08:49:28.007Z",
-          "mission": "string",
-          "status": "string",
-          "position": "string",
-          "sync_date": "2017-07-10T08:49:28.007Z"
-        }
-      ]
+      ],
+      "id": 0
     }
   ],
-  "projects": [
+  "access": [
     {
-      "id": 0,
-      "reviewer_id": 0,
-      "access": [
-        {
-          "round_id": 10,
-          "is_access_to_preparation": 1,
-          "is_access_to_agreements": 1,
-          "is_acess_to_analysis": 1,
-          "is_access_to_statistics": 1
-        }
-      ]
-    },
-    {
-      "id": 1,
-      "reviewer_id": 1,
-      "access": [
-        {
-          "round_id": 11,
-          "is_access_to_preparation": 1,
-          "is_access_to_agreements": 1,
-          "is_acess_to_analysis": 1,
-          "is_access_to_statistics": 1
-        }
-      ]
+      "round_id": 10,
+      "is_access_to_preparation": 1,
+      "is_access_to_agreements": 1,
+      "is_acess_to_analysis": 1,
+      "is_access_to_statistics": 1,
+      "id": 0
     }
   ]
+
 }

@@ -3,6 +3,10 @@
   "/user/*": "/$1",
   "/email/*": "/$1",
   "/reviewing/*": "/$1",
-  "/projects/:projectId/reviewers/:reviewerId/access": "/projects/:projectId/?reviewer_id=reviewerId"
+  "/projcets": "/projects?_embed=",
+  "/projects/:projectId/reviewers": "/reviewers/:projectId",
+  "/projects/:projectId/reviewers/:reviewerId/access": "/access/:reviewerId",
+  "/projects/:projectId/reviewers/:reviewerId/": "/reviewers/:projectId"
+
 
 }
