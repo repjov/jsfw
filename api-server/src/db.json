@@ -18,6 +18,32 @@
         }
       ],
       "id": 0
+    },
+    {
+      "reviewer_id": 0,
+      "access": [
+        {
+          "round_id": 10,
+          "is_access_to_preparation": 1,
+          "is_access_to_agreements": 1,
+          "is_acess_to_analysis": 1,
+          "is_access_to_statistics": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "reviewer_id": 0,
+      "access": [
+        {
+          "round_id": 10,
+          "is_access_to_preparation": 1,
+          "is_access_to_agreements": 1,
+          "is_acess_to_analysis": 1,
+          "is_access_to_statistics": 1
+        }
+      ],
+      "id": 2
     }
   ],
   "reviewers": [
@@ -62,5 +88,4 @@
       "id": 0
     }
   ]
-
 }
